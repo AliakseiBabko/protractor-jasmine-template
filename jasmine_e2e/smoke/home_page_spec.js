@@ -18,7 +18,7 @@ describe("HOME PAGE", () => {
         it(`verify that Home Page title is equal to the 'Exadel | Global Enterprise Software & Tech Solutions'`, async () => {
             const pageTitle = await browser.getTitle();
 
-            return expect(pageTitle).toEqual('Exadel | Global Enterprise Software & Tech Solutions');
+            return expect(pageTitle).toEqual('Enterprise Software Development Company | Exadel');
         });
     });
 
