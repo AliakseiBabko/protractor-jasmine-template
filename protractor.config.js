@@ -5,7 +5,7 @@ const yargs = require("yargs").argv;
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     // directConnect: true,  
-    baseUrl: 'https://www.exadel.com/',
+    baseUrl: 'https://www.exadel.com/',    
     capabilities: {
         browserName: 'chrome',
         shardTestFiles: false,
