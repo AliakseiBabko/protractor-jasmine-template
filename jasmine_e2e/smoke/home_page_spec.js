@@ -19,6 +19,16 @@ describe("HOME PAGE", () => {
             return expect(pageTitle).toEqual('Enterprise Software Development Company | Exadel');
         });
     });
+
+    describe("SEARCH FORM VERIFICATION", () => {
+        it(`verify that Search form becomes visible after klicking Search icon`, async () => {
+            world.HomePage.Header.SearchButton.click();
+            //const searchVisibility = await world.HomePage.Header.SearchForm.getSize();            
+            //return expect(searchVisibility.height).toBeGreaterThan(0);
+            const searchVisibility = await browser.wait(EC.visibilityOf(world.HomePage.Header.SearchForm), 5000);
+            return expect(searchVisibility).toBe(true);
+        });
+    });
 });
 
 describe("CONTACT US PAGE", () => {
@@ -30,11 +40,11 @@ describe("CONTACT US PAGE", () => {
 
     describe("Call Us number is valid", () => {
         it(`Call Us number is visible`, async () => {
-            const visibility = await browser.wait(EC.visibilityOf(world.ContactUsPage.CallUsNumber), 5000);
-            return expect(visibility).toBe(true);
+            const numberVisibility = await browser.wait(EC.visibilityOf(world.ContactUsPage.ContactsBlockPhoneNumber), 5000);
+            return expect(numberVisibility).toBe(true);
         });
         it(`Call Us number is equal +1 (866) 843 7411`, async () => {
-            const elementNumber = await world.ContactUsPage.CallUsNumber.getText();
+            const elementNumber = await world.ContactUsPage.ContactsBlockPhoneNumber.getText();
             return expect(elementNumber).toContain('+1 (866)');
         });
     });
