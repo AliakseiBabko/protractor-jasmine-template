@@ -12,10 +12,9 @@ exports.config = {
     capabilities: {
         browserName: 'chrome',
         shardTestFiles: false,
-        maxInstances: 2,
-        // version: "66.0.3359.139"
-    },*/
-    
+        maxInstances: 2        
+    },
+    */
     multiCapabilities: [{
         browserName: 'chrome',
         shardTestFiles: true,
@@ -23,7 +22,7 @@ exports.config = {
     }, {
         browserName: 'firefox'
     }],
-
+    
     specs: [
         `jasmine_e2e/${yargs.spec || "*/*.js"}`
     ],

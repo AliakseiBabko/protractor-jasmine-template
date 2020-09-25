@@ -34,16 +34,14 @@ describe("HOME PAGE", () => {
         });
     });
 
-    /*
+    
     describe("SEARCH FORM VERIFICATION", () => {
         it(`verify that Search form becomes visible after klicking Search icon`, async () => {
-            world.HomePage.Header.SearchButton.click();
-            const searchVisibility = await browser.wait(world.HomePage.Header.SearchForm.getSize(), 1000);            
-            return expect(searchVisibility.height).toBeGreaterThan(172);
-            //const searchVisibility = await browser.wait(EC.visibilityOf(world.HomePage.Header.SearchForm), 5000);
-            //return expect(searchVisibility).toBe(true);
+            await world.HomePage.Header.SearchButton.click();
+            const searchFormSize = await world.HomePage.Header.SearchForm.getSize();
+            return expect(searchFormSize.height).toBeGreaterThan(172);
         });
-    });*/
+    });
 });
 
 describe("CONTACT US PAGE", () => {
@@ -55,7 +53,7 @@ describe("CONTACT US PAGE", () => {
 
     describe("Call Us number is valid", () => {
         it(`Call Us number is visible`, async () => {
-            const numberVisibility = await browser.wait(EC.visibilityOf(world.ContactUsPage.ContactsBlockPhoneNumber), 3000);
+            const numberVisibility = await browser.wait(EC.visibilityOf(world.ContactUsPage.ContactsBlockPhoneNumber), 5000);
             return expect(numberVisibility).toBe(true);
         });
         it(`Call Us number is equal +1 (866) 843 7411`, async () => {
@@ -74,7 +72,7 @@ describe("BIG DATA SOLUTIONS PAGE", () => {
 
     describe("Speak with us button is clickable", () => {
         it(`Speak with us button is clickable`, async () => {
-            const button = await browser.wait(EC.elementToBeClickable(world.BigDataSolutionsPage.BigDataSpeakWithUsButton), 3000);
+            const button = await browser.wait(EC.elementToBeClickable(world.BigDataSolutionsPage.BigDataSpeakWithUsButton), 5000);
             return expect(button).toBe(true);
         });
     });

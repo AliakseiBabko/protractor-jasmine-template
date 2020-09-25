@@ -12,7 +12,9 @@ class Header{
         this.NewsroomButton = this.Header.element(by.css('#menu-item-191665'));
         this.ContactUsButton = this.Header.element(by.css('#contact-h'));
         this.SearchButton = this.Header.element(by.css('#et_top_search'));
-        this.SearchForm = this.Header.element(by.css('.morphsearch.open'));
+        
+        
+        this.SearchForm = element(by.css('#morphsearch'));
         /*
         this.SolutionssDropdownItems = this.SolutionButton.$$('.mega-sub-menu .mega-menu-link');
         this.OurWorkDropdownItems = this.OurWorkButton.$$('.mega-sub-menu .mega-menu-link');

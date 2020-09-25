@@ -2,7 +2,7 @@
 
 const HomePage = require('./pages/HomePage');
 const ContactUsPage = require('./pages/ContactUsPage');
-const BigDataSolutionsPage = require('./pages/BigDataSolutionsPage.js');
+const BigDataSolutionsPage = require('./pages/BigDataSolutionsPage');
 
 class World {
 	constructor (){

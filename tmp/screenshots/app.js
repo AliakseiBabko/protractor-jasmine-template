@@ -275,8 +275,8 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -284,17 +284,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00ac00ce-0063-0083-0001-00fb00b500ef.png",
-        "timestamp": 1601017240470,
-        "duration": 5484
+        "screenShotFile": "00d2002d-0073-00f8-002e-00ad00d60049.png",
+        "timestamp": 1601030296337,
+        "duration": 5200
     },
     {
         "description": "verify that Home Page title is equal to the 'Enterprise Software Development Company | Exadel'|PAGE TITLE AND URL VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -302,17 +302,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00ed007f-0022-00f3-005d-00dd005b00ab.png",
-        "timestamp": 1601017246824,
-        "duration": 2618
+        "screenShotFile": "00dd009e-0094-0058-002a-0009000700b5.png",
+        "timestamp": 1601030302338,
+        "duration": 2760
     },
     {
         "description": "verify that image's height equal to |IMG HEIGHT VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -320,17 +320,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00670088-00b6-00fb-00f1-003800ef0074.png",
-        "timestamp": 1601017250292,
-        "duration": 2388
+        "screenShotFile": "00630055-0001-002e-00ad-00dc005b00be.png",
+        "timestamp": 1601030306020,
+        "duration": 2401
     },
     {
         "description": "verify that Home Page url is equal to the https://www.exadel.com/|PAGE TITLE AND URL VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
         "browser": {
             "name": "firefox",
             "version": "80.0.1"
@@ -338,17 +338,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00f200a6-0058-00a4-00a9-00df00e60079.png",
-        "timestamp": 1601017247436,
-        "duration": 5453
+        "screenShotFile": "00560095-003e-00f7-001d-0066004f004c.png",
+        "timestamp": 1601030305447,
+        "duration": 4829
     },
     {
         "description": "verify that image's height equal to |FONT SIZE VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -356,17 +356,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00a00016-0043-0048-0005-000300900081.png",
-        "timestamp": 1601017253477,
-        "duration": 2347
+        "screenShotFile": "005c0099-0017-0051-0055-00e400720038.png",
+        "timestamp": 1601030309242,
+        "duration": 2719
     },
     {
         "description": "verify that Home Page title is equal to the 'Enterprise Software Development Company | Exadel'|PAGE TITLE AND URL VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
         "browser": {
             "name": "firefox",
             "version": "80.0.1"
@@ -374,17 +374,35 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00b600e4-00a3-000c-0024-002200a1001f.png",
-        "timestamp": 1601017253685,
-        "duration": 2864
+        "screenShotFile": "0042009b-00c2-0065-00d5-00f900d00006.png",
+        "timestamp": 1601030311234,
+        "duration": 3627
+    },
+    {
+        "description": "verify that Search form becomes visible after klicking Search icon|SEARCH FORM VERIFICATION|HOME PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
+        "browser": {
+            "name": "chrome",
+            "version": "85.0.4183.121"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "003a0014-00c7-00e9-0031-009700e40073.png",
+        "timestamp": 1601030312788,
+        "duration": 2920
     },
     {
         "description": "verify that image's height equal to |IMG HEIGHT VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
         "browser": {
             "name": "firefox",
             "version": "80.0.1"
@@ -392,35 +410,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "0072002d-00f9-002e-0032-000a00c90075.png",
-        "timestamp": 1601017257382,
-        "duration": 2639
-    },
-    {
-        "description": "Call Us number is visible|Call Us number is valid|CONTACT US PAGE",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.121"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "005f006d-0068-000b-00bd-00d2001c0046.png",
-        "timestamp": 1601017256617,
-        "duration": 5283
+        "screenShotFile": "00630008-00f7-00cd-0095-00c800ed0005.png",
+        "timestamp": 1601030315659,
+        "duration": 2638
     },
     {
         "description": "verify that image's height equal to |FONT SIZE VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
         "browser": {
             "name": "firefox",
             "version": "80.0.1"
@@ -428,53 +428,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00e300a3-0015-0074-0035-003f008400fd.png",
-        "timestamp": 1601017261160,
-        "duration": 3006
-    },
-    {
-        "description": "Call Us number is equal +1 (866) 843 7411|Call Us number is valid|CONTACT US PAGE",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.121"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00550006-008e-0021-0059-006100010067.png",
-        "timestamp": 1601017263178,
-        "duration": 4229
+        "screenShotFile": "00d500a0-002a-00fd-0042-002d00e800c7.png",
+        "timestamp": 1601030318967,
+        "duration": 3357
     },
     {
         "description": "Call Us number is visible|Call Us number is valid|CONTACT US PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
-        "browser": {
-            "name": "firefox",
-            "version": "80.0.1"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00c80089-0013-00aa-00d4-00b5001600ce.png",
-        "timestamp": 1601017264854,
-        "duration": 5459
-    },
-    {
-        "description": "Speak with us button is clickable|Speak with us button is clickable|BIG DATA SOLUTIONS PAGE",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
-        "instanceId": 11704,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -482,35 +446,71 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "0085005d-006f-0027-0018-003f00020090.png",
-        "timestamp": 1601017268467,
-        "duration": 2614
+        "screenShotFile": "000300ec-006a-00b1-004d-0016000b0081.png",
+        "timestamp": 1601030316509,
+        "duration": 5205
+    },
+    {
+        "description": "verify that Search form becomes visible after klicking Search icon|SEARCH FORM VERIFICATION|HOME PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "005000c1-00f9-00dd-0067-00da00470066.png",
+        "timestamp": 1601030322800,
+        "duration": 2631
     },
     {
         "description": "Call Us number is equal +1 (866) 843 7411|Call Us number is valid|CONTACT US PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
         "browser": {
-            "name": "firefox",
-            "version": "80.0.1"
+            "name": "chrome",
+            "version": "85.0.4183.121"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "0052000d-0046-003e-008f-00e7008f00c9.png",
-        "timestamp": 1601017271260,
-        "duration": 2903
+        "screenShotFile": "00f80004-0018-0017-00c6-00a4007e003f.png",
+        "timestamp": 1601030322879,
+        "duration": 3314
     },
     {
         "description": "Speak with us button is clickable|Speak with us button is clickable|BIG DATA SOLUTIONS PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
-        "instanceId": 8408,
+        "sessionId": "47ce54441814d3d4e8991013789bbc00",
+        "instanceId": 18800,
+        "browser": {
+            "name": "chrome",
+            "version": "85.0.4183.121"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00ee0097-0027-0075-0027-00b0004400d0.png",
+        "timestamp": 1601030327589,
+        "duration": 2416
+    },
+    {
+        "description": "Call Us number is visible|Call Us number is valid|CONTACT US PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
         "browser": {
             "name": "firefox",
             "version": "80.0.1"
@@ -518,9 +518,45 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00c600ee-005c-0057-00a7-00a800c100b9.png",
-        "timestamp": 1601017274962,
-        "duration": 3036
+        "screenShotFile": "00a80017-0005-00bf-0045-00e900720042.png",
+        "timestamp": 1601030326074,
+        "duration": 4917
+    },
+    {
+        "description": "Call Us number is equal +1 (866) 843 7411|Call Us number is valid|CONTACT US PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00c50011-00ff-0003-0074-00000037009c.png",
+        "timestamp": 1601030331913,
+        "duration": 2389
+    },
+    {
+        "description": "Speak with us button is clickable|Speak with us button is clickable|BIG DATA SOLUTIONS PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "0d2b2c8e-1f93-4c25-8dd5-1775ad90a621",
+        "instanceId": 16488,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "003e007e-000f-001f-0089-0071007200c4.png",
+        "timestamp": 1601030335381,
+        "duration": 2098
     }
 ];
 
