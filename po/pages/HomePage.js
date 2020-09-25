@@ -33,6 +33,7 @@ class HomePage extends BasePage{
 
         this.TechTipsBlockHeader = element(by.css('.et_pb_section_6'));
         this.TechTipsBlockArticles = element(by.css('.et_pb_section_7'));
+        this.TechTipsBlockArticlesImg = element(by.css('.attachment-full'));
         this.TechTipsBlockLearnMoreButton =  this.TechTipsBlockArticles.element(by.css('.latest-news__item-learn-more'));
         this.TechTipsBlockMoreArticlesButton =  this.TechTipsBlockArticles.element(by.css('.latest-news__other-news'));
 

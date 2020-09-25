@@ -14,6 +14,7 @@ lib-cov
 build/Release
 
 # Dependency directories
+tmp
 node_modules
 jspm_packages
 

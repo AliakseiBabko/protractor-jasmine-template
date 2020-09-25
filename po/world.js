@@ -2,13 +2,13 @@
 
 const HomePage = require('./pages/HomePage');
 const ContactUsPage = require('./pages/ContactUsPage');
+const BigDataSolutionsPage = require('./pages/BigDataSolutionsPage.js');
 
 class World {
 	constructor (){
 		this.HomePage = new HomePage();
-		this.HomeUrl = `^${browser.baseUrl}$`;
 		this.ContactUsPage = new ContactUsPage();
-		this.ContactUsUrl = `^${browser.contactUsUrl}$`;
+		this.BigDataSolutionsPage = new BigDataSolutionsPage();
 	}
 }
 

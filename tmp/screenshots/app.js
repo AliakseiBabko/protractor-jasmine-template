@@ -275,8 +275,8 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "337f82dc92002dc8aee145d108e8739e",
-        "instanceId": 18892,
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -284,17 +284,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00300059-00c6-00e3-0089-006a00780095.png",
-        "timestamp": 1600932811642,
-        "duration": 3332
+        "screenShotFile": "00ac00ce-0063-0083-0001-00fb00b500ef.png",
+        "timestamp": 1601017240470,
+        "duration": 5484
     },
     {
         "description": "verify that Home Page title is equal to the 'Enterprise Software Development Company | Exadel'|PAGE TITLE AND URL VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "337f82dc92002dc8aee145d108e8739e",
-        "instanceId": 18892,
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -302,39 +302,17 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "004300f1-0035-00c8-009a-00230046004e.png",
-        "timestamp": 1600932815745,
-        "duration": 1978
+        "screenShotFile": "00ed007f-0022-00f3-005d-00dd005b00ab.png",
+        "timestamp": 1601017246824,
+        "duration": 2618
     },
     {
-        "description": "verify that Search form becomes visible after klicking Search icon|SEARCH FORM VERIFICATION|HOME PAGE",
-        "passed": false,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "337f82dc92002dc8aee145d108e8739e",
-        "instanceId": 18892,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.121"
-        },
-        "message": [
-            "Failed: Cannot read property 'HomePage' of undefined"
-        ],
-        "trace": [
-            "TypeError: Cannot read property 'HomePage' of undefined\n    at UserContext.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:28:85)\n    at D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasminewd2\\index.js:112:25\n    at new Promise (<anonymous>)\n    at SimpleScheduler.promise (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\selenium-webdriver\\lib\\promise.js:2242:12)\n    at schedulerExecute (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasminewd2\\index.js:95:18)\n    at D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\selenium-webdriver\\lib\\promise.js:2232:22\n    at new Promise (<anonymous>)\n    at SimpleScheduler.promise (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\selenium-webdriver\\lib\\promise.js:2242:12)\n    at SimpleScheduler.execute (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\selenium-webdriver\\lib\\promise.js:2227:17)\n    at UserContext.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasminewd2\\index.js:94:19)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:24:9)\n    at addSpecsToSuite (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Suite.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:23:5)\n    at addSpecsToSuite (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:4:1)"
-        ],
-        "browserLogs": [],
-        "screenShotFile": "003800b4-009a-00a7-009f-004800760034.png",
-        "timestamp": 1600932818535,
-        "duration": 1721
-    },
-    {
-        "description": "Call Us number is visible|Call Us number is valid|CONTACT US PAGE",
+        "description": "verify that image's height equal to |IMG HEIGHT VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "337f82dc92002dc8aee145d108e8739e",
-        "instanceId": 18892,
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -342,35 +320,35 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00a1004b-00e1-00a0-00a2-00b4005e001c.png",
-        "timestamp": 1600932821016,
-        "duration": 4186
-    },
-    {
-        "description": "Call Us number is equal +1 (866) 843 7411|Call Us number is valid|CONTACT US PAGE",
-        "passed": true,
-        "pending": false,
-        "os": "windows",
-        "sessionId": "337f82dc92002dc8aee145d108e8739e",
-        "instanceId": 18892,
-        "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.121"
-        },
-        "message": "Passed.",
-        "trace": "",
-        "browserLogs": [],
-        "screenShotFile": "00c900fd-0012-0075-00f3-000400630057.png",
-        "timestamp": 1600932826108,
-        "duration": 2287
+        "screenShotFile": "00670088-00b6-00fb-00f1-003800ef0074.png",
+        "timestamp": 1601017250292,
+        "duration": 2388
     },
     {
         "description": "verify that Home Page url is equal to the https://www.exadel.com/|PAGE TITLE AND URL VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "f665e1c2bbd3be4335827bd6d5216f81",
-        "instanceId": 19608,
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00f200a6-0058-00a4-00a9-00df00e60079.png",
+        "timestamp": 1601017247436,
+        "duration": 5453
+    },
+    {
+        "description": "verify that image's height equal to |FONT SIZE VERIFICATION|HOME PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -378,57 +356,53 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "009000a6-00a3-000d-000b-009100d9001f.png",
-        "timestamp": 1600933064541,
-        "duration": 3342
+        "screenShotFile": "00a00016-0043-0048-0005-000300900081.png",
+        "timestamp": 1601017253477,
+        "duration": 2347
     },
     {
         "description": "verify that Home Page title is equal to the 'Enterprise Software Development Company | Exadel'|PAGE TITLE AND URL VERIFICATION|HOME PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "f665e1c2bbd3be4335827bd6d5216f81",
-        "instanceId": 19608,
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
         "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.121"
+            "name": "firefox",
+            "version": "80.0.1"
         },
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00ea00e0-00d6-0025-0015-003c008c00a0.png",
-        "timestamp": 1600933068923,
-        "duration": 1860
+        "screenShotFile": "00b600e4-00a3-000c-0024-002200a1001f.png",
+        "timestamp": 1601017253685,
+        "duration": 2864
     },
     {
-        "description": "verify that Search form becomes visible after klicking Search icon|SEARCH FORM VERIFICATION|HOME PAGE",
-        "passed": false,
+        "description": "verify that image's height equal to |IMG HEIGHT VERIFICATION|HOME PAGE",
+        "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "f665e1c2bbd3be4335827bd6d5216f81",
-        "instanceId": 19608,
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
         "browser": {
-            "name": "chrome",
-            "version": "85.0.4183.121"
+            "name": "firefox",
+            "version": "80.0.1"
         },
-        "message": [
-            "Failed: Wait timed out after 5042ms"
-        ],
-        "trace": [
-            "TimeoutError: Wait timed out after 5042ms\n    at D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\selenium-webdriver\\lib\\promise.js:2201:17\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:24:9)\n    at addSpecsToSuite (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Suite.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:23:5)\n    at addSpecsToSuite (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (D:\\Exadel\\TestAutomationNodeJS\\protractor-jasmine-template\\jasmine_e2e\\smoke\\home_page_spec.js:4:1)"
-        ],
+        "message": "Passed.",
+        "trace": "",
         "browserLogs": [],
-        "screenShotFile": "008e00c8-007b-000d-00bd-00db0055003e.png",
-        "timestamp": 1600933071571,
-        "duration": 6678
+        "screenShotFile": "0072002d-00f9-002e-0032-000a00c90075.png",
+        "timestamp": 1601017257382,
+        "duration": 2639
     },
     {
         "description": "Call Us number is visible|Call Us number is valid|CONTACT US PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "f665e1c2bbd3be4335827bd6d5216f81",
-        "instanceId": 19608,
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -436,17 +410,35 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "006500ec-0016-00e3-002b-002300bc00aa.png",
-        "timestamp": 1600933078916,
-        "duration": 3738
+        "screenShotFile": "005f006d-0068-000b-00bd-00d2001c0046.png",
+        "timestamp": 1601017256617,
+        "duration": 5283
+    },
+    {
+        "description": "verify that image's height equal to |FONT SIZE VERIFICATION|HOME PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00e300a3-0015-0074-0035-003f008400fd.png",
+        "timestamp": 1601017261160,
+        "duration": 3006
     },
     {
         "description": "Call Us number is equal +1 (866) 843 7411|Call Us number is valid|CONTACT US PAGE",
         "passed": true,
         "pending": false,
         "os": "windows",
-        "sessionId": "f665e1c2bbd3be4335827bd6d5216f81",
-        "instanceId": 19608,
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
         "browser": {
             "name": "chrome",
             "version": "85.0.4183.121"
@@ -454,9 +446,81 @@ app.controller('ScreenshotReportController', ['$scope', '$http', 'TitleService',
         "message": "Passed.",
         "trace": "",
         "browserLogs": [],
-        "screenShotFile": "00cd005c-00b8-0065-007c-0065000500e9.png",
-        "timestamp": 1600933083684,
-        "duration": 2470
+        "screenShotFile": "00550006-008e-0021-0059-006100010067.png",
+        "timestamp": 1601017263178,
+        "duration": 4229
+    },
+    {
+        "description": "Call Us number is visible|Call Us number is valid|CONTACT US PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00c80089-0013-00aa-00d4-00b5001600ce.png",
+        "timestamp": 1601017264854,
+        "duration": 5459
+    },
+    {
+        "description": "Speak with us button is clickable|Speak with us button is clickable|BIG DATA SOLUTIONS PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "98bc0a4e0858f757abc8cfcbcc300aca",
+        "instanceId": 11704,
+        "browser": {
+            "name": "chrome",
+            "version": "85.0.4183.121"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0085005d-006f-0027-0018-003f00020090.png",
+        "timestamp": 1601017268467,
+        "duration": 2614
+    },
+    {
+        "description": "Call Us number is equal +1 (866) 843 7411|Call Us number is valid|CONTACT US PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "0052000d-0046-003e-008f-00e7008f00c9.png",
+        "timestamp": 1601017271260,
+        "duration": 2903
+    },
+    {
+        "description": "Speak with us button is clickable|Speak with us button is clickable|BIG DATA SOLUTIONS PAGE",
+        "passed": true,
+        "pending": false,
+        "os": "windows",
+        "sessionId": "e62b6b79-9567-4192-8c6a-196594d23fad",
+        "instanceId": 8408,
+        "browser": {
+            "name": "firefox",
+            "version": "80.0.1"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "00c600ee-005c-0057-00a7-00a800c100b9.png",
+        "timestamp": 1601017274962,
+        "duration": 3036
     }
 ];
 

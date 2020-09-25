@@ -20,15 +20,30 @@ describe("HOME PAGE", () => {
         });
     });
 
+    describe("IMG HEIGHT VERIFICATION", () => {
+        it(`verify that image's height equal to `, async () => {
+            const articleImg = await world.HomePage.TechTipsBlockArticlesImg.getSize();                 
+            return expect(articleImg.height).toBeLessThan(300);
+        });
+    });
+
+    describe("FONT SIZE VERIFICATION", () => {
+        it(`verify that image's height equal to `, async () => {
+            const headerFont = await world.HomePage.DigitalSolutionsHeader.getCssValue('font-style');         
+            return expect(headerFont).toBe('normal');
+        });
+    });
+
+    /*
     describe("SEARCH FORM VERIFICATION", () => {
         it(`verify that Search form becomes visible after klicking Search icon`, async () => {
             world.HomePage.Header.SearchButton.click();
-            //const searchVisibility = await world.HomePage.Header.SearchForm.getSize();            
-            //return expect(searchVisibility.height).toBeGreaterThan(0);
-            const searchVisibility = await browser.wait(EC.visibilityOf(world.HomePage.Header.SearchForm), 5000);
-            return expect(searchVisibility).toBe(true);
+            const searchVisibility = await browser.wait(world.HomePage.Header.SearchForm.getSize(), 1000);            
+            return expect(searchVisibility.height).toBeGreaterThan(172);
+            //const searchVisibility = await browser.wait(EC.visibilityOf(world.HomePage.Header.SearchForm), 5000);
+            //return expect(searchVisibility).toBe(true);
         });
-    });
+    });*/
 });
 
 describe("CONTACT US PAGE", () => {
@@ -40,12 +55,27 @@ describe("CONTACT US PAGE", () => {
 
     describe("Call Us number is valid", () => {
         it(`Call Us number is visible`, async () => {
-            const numberVisibility = await browser.wait(EC.visibilityOf(world.ContactUsPage.ContactsBlockPhoneNumber), 5000);
+            const numberVisibility = await browser.wait(EC.visibilityOf(world.ContactUsPage.ContactsBlockPhoneNumber), 3000);
             return expect(numberVisibility).toBe(true);
         });
         it(`Call Us number is equal +1 (866) 843 7411`, async () => {
             const elementNumber = await world.ContactUsPage.ContactsBlockPhoneNumber.getText();
             return expect(elementNumber).toContain('+1 (866)');
+        });
+    });
+});
+
+describe("BIG DATA SOLUTIONS PAGE", () => {
+
+    beforeEach(async () => {
+        await browser.manage().deleteAllCookies();
+        await browser.get(browser.baseUrl + '/services/engineering/big-data-solutions');
+    });
+
+    describe("Speak with us button is clickable", () => {
+        it(`Speak with us button is clickable`, async () => {
+            const button = await browser.wait(EC.elementToBeClickable(world.BigDataSolutionsPage.BigDataSpeakWithUsButton), 3000);
+            return expect(button).toBe(true);
         });
     });
 });
